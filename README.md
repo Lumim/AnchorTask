@@ -2,12 +2,7 @@
 Anchortask work of a day
 
 npm install
-
-#####################################
-connect DB from config using mySql
-
-#####################################
-module.exports = {
+db.config.js -> change -> and make a DB -> 
   HOST: "localhost",
   USER: "root",
   PASSWORD: "",
@@ -21,5 +16,5 @@ module.exports = {
   }
 };
 
-########################
+
 node server.js
